@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LandlordListingPage extends StatelessWidget {
-  const LandlordListingPage({Key? key}) : super(key: key);
+  const LandlordListingPage({super.key});
 
   @override
   Widget build(BuildContext context) {

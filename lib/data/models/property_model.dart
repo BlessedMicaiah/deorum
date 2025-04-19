@@ -2,24 +2,15 @@ import '../../domain/entities/property.dart';
 
 class PropertyModel extends Property {
   PropertyModel({
-    required String id,
-    required String title,
-    required String description,
-    required String address,
-    required double latitude,
-    required double longitude,
-    required double price,
-    required String imageUrl,
-  }) : super(
-          id: id,
-          title: title,
-          description: description,
-          address: address,
-          latitude: latitude,
-          longitude: longitude,
-          price: price,
-          imageUrl: imageUrl,
-        );
+    required super.id,
+    required super.title,
+    required super.description,
+    required super.address,
+    required super.latitude,
+    required super.longitude,
+    required super.price,
+    required super.imageUrl,
+  });
 
   factory PropertyModel.fromMap(Map<String, dynamic> map) {
     return PropertyModel(

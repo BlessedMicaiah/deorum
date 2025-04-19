@@ -4,7 +4,7 @@ import 'package:deorum/presentation/providers/auth_provider.dart';
 import 'package:deorum/presentation/routes/app_routes.dart';
 
 class SignupPage extends StatefulWidget {
-  const SignupPage({Key? key}) : super(key: key);
+  const SignupPage({super.key});
 
   @override
   State<SignupPage> createState() => _SignupPageState();

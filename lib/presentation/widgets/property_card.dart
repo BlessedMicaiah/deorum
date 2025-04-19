@@ -3,7 +3,7 @@ import '../../domain/entities/property.dart';
 
 class PropertyCard extends StatelessWidget {
   final Property property;
-  const PropertyCard({Key? key, required this.property}) : super(key: key);
+  const PropertyCard({super.key, required this.property});
 
   @override
   Widget build(BuildContext context) {
